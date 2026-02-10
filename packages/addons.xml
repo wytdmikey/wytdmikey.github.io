@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.mikey" name="mikey's fun house Repo" version="1.0" provider-name="wytdmikey">
-        <extension point="xbmc.addon.repository" name="mikey's fun house Repo">
-            <dir>
-                <info compressed="false">https://wytdmikey.github.io/packages/addons.xml</info>
-                <checksum>https://wytdmikey.github.io/packages/addons.xml.md5</checksum>
-                <datadir zip="true">https://wytdmikey.github.io/packages/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>mikey's fun house - i'm on pure bullshit</summary>
-            <description>i archive old shit or anything else i feel like archiving for my kodi setup yesyes</description>
-        </extension>
-    </addon>
-    
     <addon id="plugin.video.fenlight" name="FenLightAM" provider-name="Tikipeter/AnonyMouse" version="2.1.63">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
