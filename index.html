@@ -1,0 +1,228 @@
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Mikey's Fun House | wytdmikey.github.io</title>
+    <meta property="og:title" content="Mikey's Fun House">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://wytdmikey.github.io/">
+    <meta property="og:url" content="https://wytdmikey.github.io/">
+    <meta property="og:site_name" content="wytdmikey.github.io">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            font-family: 'Open Sans', sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #00d4ff;
+            text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            margin-bottom: 10px;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            }
+            to {
+                text-shadow: 0 0 30px rgba(0, 212, 255, 0.8), 0 0 40px rgba(0, 212, 255, 0.6);
+            }
+        }
+        
+        .version {
+            display: inline-block;
+            background: rgba(0, 212, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+            border: 1px solid rgba(0, 212, 255, 0.4);
+        }
+        
+        .logo-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .logo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #00d4ff;
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.6);
+            transition: transform 0.3s ease;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05) rotate(5deg);
+        }
+        
+        .content-box {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            border-left: 4px solid #00d4ff;
+        }
+        
+        h2 {
+            color: #00d4ff;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            line-height: 1.6;
+        }
+        
+        li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #00d4ff;
+            font-size: 1.2em;
+        }
+        
+        .code-highlight {
+            background: rgba(0, 212, 255, 0.2);
+            padding: 3px 8px;
+            border-radius: 5px;
+            color: #00d4ff;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+        
+        a {
+            color: #00d4ff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.8);
+        }
+        
+        .github-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+        
+        .github-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 212, 255, 0.6);
+            text-shadow: none;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .enjoy {
+            text-align: center;
+            font-size: 2em;
+            color: #00d4ff;
+            margin-top: 30px;
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎪 Mikey's Fun House 🎪</h1>
+            <span class="version">Current Version: 2.0.1</span>
+            <div style="margin-top: 20px;">
+                <a href="https://github.com/wytdmikey/wytdmikey.github.io" class="github-btn">View On GitHub</a>
+            </div>
+        </header>
+
+        <div class="logo-container">
+            <img class="logo" src="https://avatars1.githubusercontent.com/u/34864147?s=460&v=4" alt="Mikey's Fun House Logo">
+        </div>
+
+        <div class="content-box">
+            <h2>Installation Instructions</h2>
+            <p style="margin-bottom: 20px;">Follow these steps to add Mikey's Fun House to your Kodi setup:</p>
+            <ul>
+                <li>Go to the Kodi file manager</li>
+                <li>Click on "Add source"</li>
+                <li>The path for the source is <code class="code-highlight">https://wytdmikey.github.io/packages</code></li>
+                <li>Name it "Mikey's Fun House" (or just "Mikey" if you're cool)</li>
+                <li>Head to "My Addons"</li>
+                <li>Select install an addon from zipfile</li>
+                <li>When it asks for the location, select "Mikey's Fun House", and install <code class="code-highlight">repository.mikey-2.0.1.zip</code></li>
+                <li>Go back to My Addons and select "Install from repository"</li>
+                <li>Select the "Mikey's Fun House" menu item</li>
+                <li>Open "Video add-ons" and install your favorite addons</li>
+                <li>(Optional) It's suggested to also install the context menu addon for extra fun!</li>
+            </ul>
+        </div>
+
+        <div class="enjoy">🎉 Enjoy! 🎉</div>
+
+        <footer>
+            <p>Project maintained by <a href="https://github.com/wytdmikey">Mikey</a></p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Made with ❄️ and 💙</p>
+        </footer>
+    </div>
+</body>
+</html>
